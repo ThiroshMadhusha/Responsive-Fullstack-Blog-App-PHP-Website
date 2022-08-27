@@ -1,0 +1,79 @@
+
+/* Search Bar */
+
+.search__bar{
+    margin-top: 7rem;
+
+}
+.search__bar-container{
+    position: relative;
+    width: 30rem;
+    background: var(--color-gray-900);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0.6rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    color: var(--color-gray-300);
+}
+
+.search__bar-container >div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search__bar input{
+    margin-left: 0.7rem;
+    padding: 0.5rem 0;
+    width: 100%;
+    background: transparent;
+}
+
+.search__bar input::placeholder{
+    color: var(--color-gray-200);
+}
+
+/* End Search */
+/* ------------------------------------------------------------- */
+
+
+/* Button */
+
+.btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-primary);
+    border-radius: var(--card-border-radius-2);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-white);
+}
+/* End Button */
+
+
+
+/* Media Query */
+@media screen and (max-width: 1024px) {
+  
+
+  /* Blog Search Bar */
+  .search__bar-container{
+    width: 60%;
+  }
+}
+
+/* Mobile Response */
+@media screen and (max-width:600px) {
+    
+
+    /* Blog Search Bar */
+  .search__bar-container{
+    width: var(--container-width-md);
+  }
+    
+}
+
+/* End Media Query */

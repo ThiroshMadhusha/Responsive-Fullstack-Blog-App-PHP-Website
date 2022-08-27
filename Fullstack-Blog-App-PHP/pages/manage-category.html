@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="../assets/manage-category.css" />
+    
+
+    <!-- icon cloud cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+
+    <!-- Ceate Nav Bar Component -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">Thirosh</a>
+        <ul class="nav__items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- <li><a href="signin.html">Signin</a></li> -->
+          <li class="nav__profile">
+            <div class="avatar">
+              <img src="../images/profile/profile.jpg" alt="profile"/>
+            </div>
+
+            <!-- After sign in -->
+            <ul>
+                <li><a href="dashboard.html">Dashboard</i></a></li>
+                <li><a href="logout.html">Logout</i></a></li>
+              </ul>
+          </li>
+        </ul>
+
+        <!-- mobile view -->
+        <button id="open__nav-btn"><i class="uil uil-bars"></i></button>
+        <button id="close__nav-btn"><i class="uil uil-multiply"></i></button>
+
+      </div>
+    </nav>
+
+    <!-- End Nav Bar -->
+
+<section class="dashboard">
+  <div class="container dashboard__container">
+    <button class="sidebar__toggle" id="show__sidebar-btn"><i class="uil uil-angle-right-b"></i></button>
+    <button class="sidebar__toggle" id="hide__sidebar-btn"><i class="uil uil-angle-left-b"></i></button>
+    <aside>
+      <ul>
+        <li>
+          <a href="add-post.html">
+            <i class="uil uil-edit"></i>
+            <h5>Add Post</h5>
+          </a>
+        </li>
+        <li>
+          <a href="dashboard.html">
+            <i class="uil uil-create-dashboard"></i>
+            <h5>Manage Post</h5>
+          </a>
+        </li>
+        <li>
+          <a href="add-user.html">
+            <i class="uil uil-user-plus"></i>
+            <h5>Add User</h5>
+          </a>
+        </li>
+        <li>
+          <a href="manage-user.html">
+            <i class="uil uil-user-arrows"></i>
+            <h5>Manage Users</h5>
+          </a>
+        </li>
+        <li>
+          <a href="add-category.html">
+            <i class="uil uil-edit"></i>
+            <h5>Add Category</h5>
+          </a>
+        </li>
+        <li>
+          <a href="manage-category.html" class="active">
+            <i class="uil uil-list-ul"></i>
+            <h5>Manage Category</h5>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+        <h2>Manage Categories</h2>
+        <table>
+            <thead>
+                <th>Title</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Travel</td>
+                    <td><a href="edit-category.html" class="btn sm success">Edit</a></td>
+                    <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>Games</td>
+                    <td><a href="edit-category.html" class="btn sm success">Edit</a></td>
+                    <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>Wild Life</td>
+                    <td><a href="edit-category.html" class="btn sm success">Edit</a></td>
+                    <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>Foods</td>
+                    <td><a href="edit-category.html" class="btn sm success">Edit</a></td>
+                    <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>Locations</td>
+                    <td><a href="edit-category.html" class="btn sm success">Edit</a></td>
+                    <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </main>
+  </div>
+</section>
+
+ <!-- End category section -->
+
+    <footer>
+      <div class="footer__socials">
+        <a href="#" target="_blank" aria-label="Youtube"><i class="uil uil-youtube"></i></a>
+        <a href="#" target="_blank" aria-label="Facebook"><i class="uil uil-facebook-f"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="uil uil-instagram-alt"></i></a>
+        <a href="#" target="_blank" aria-label="Linkedin"><i class="uil uil-linkedin"></i></a>
+        <a href="#" target="_blank" aria-label="Github"><i class="uil uil-github"></i></a>
+        <a href="#" target="_blank" aria-label="Twitter"><i class="uil uil-twitter"></i></a>
+      </div>
+
+      <div class="container footer__container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Wild Life</a></li>
+            <li><a href="#">Travels</a></li>
+            <li><a href="#">Foods</a></li>
+            <li><a href="#">Films</a></li>
+            <li><a href="#">Technology</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Supports</h4>
+          <ul>
+            <li><a href="#">Online Support</a></li>
+            <li><a href="#">Emaols</a></li>
+            <li><a href="#">Call Numbers</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Social Media</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Blog</h4>
+          <ul>
+            <li><a href="#">Recent</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Games</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Permalinks</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; Thirosh Madhusha 2022</small>
+      </div>
+
+    </footer>
+
+    <script src="../assets/main.js"></script>
+  </body>
+</html>

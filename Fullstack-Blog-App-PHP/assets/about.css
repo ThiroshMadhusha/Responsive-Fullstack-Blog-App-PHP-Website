@@ -1,0 +1,9 @@
+
+/* About Page */
+
+.empty__page{
+    height: 70vh;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}

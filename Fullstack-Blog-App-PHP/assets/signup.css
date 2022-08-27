@@ -1,0 +1,82 @@
+
+
+/* signup css */
+
+.form__section{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+/* .form__section h2{
+    text-align: center;
+} */
+
+.form__section-container{
+    width: var(--form-width);
+}
+
+.form__control.inline{
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+.alert__message{
+    padding: 0.8rem 1.4rem;
+    margin-bottom: 1rem;
+    border-radius: var(--card-border-radius-2);
+}
+
+.alert__message.error{
+    background: var(--color-red-light);
+    color: var(--color-red);
+}
+.alert__message.success{
+    background: var(--color-green-light);
+    color: var(--color-green);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form__control{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+input,textarea,select{
+    padding: 0.8rem 1.4rem;
+    background-color: var(--color-gray-900);
+    border-radius: var(--card-border-radius-2);
+    resize: none;
+    color: var(--color-white);
+}
+.form__section small{
+    margin-top: 1rem;
+    display: block;
+
+}
+.form__section small a{
+    color: var(--color-primary);
+}
+
+.btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-primary);
+    border-radius: var(--card-border-radius-2);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-white);
+}
+
+/* Media Query */
+
+
+/* --------no media query for signup signin---------- */
+
+/* End Media Query */
