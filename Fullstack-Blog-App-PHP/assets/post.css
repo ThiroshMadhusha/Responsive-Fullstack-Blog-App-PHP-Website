@@ -1,0 +1,33 @@
+
+/* Single Posts */
+
+.singlepost{
+    margin: 6rem 0 2rem;
+}
+
+.singlepost__container{
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 1rem;
+}
+
+.singlepost__container p{
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+.singlepost__thumbnail{
+    margin: 1rem 0 1rem;
+}
+/* End Single Post */
+
+
+/* Mobile Response */
+@media screen and (max-width:600px) {
+    
+.singlepost__container{
+    background-color: transparent;
+    padding: 0;
+}
+    
+}
