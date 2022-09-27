@@ -1,5 +1,11 @@
 # Responsive-Fullstack-Blog-App-PHP-Website
 
+## Home Page Section
+![Screenshot_8](https://user-images.githubusercontent.com/79472177/192611266-779fd334-244d-45b5-89dc-e8de4b64355e.png)
+![Screenshot_21](https://user-images.githubusercontent.com/79472177/192611786-be64772d-5a1c-47cd-b62e-1dd935da3275.png)
+![Screenshot_11](https://user-images.githubusercontent.com/79472177/192611826-22f17de8-7a44-401c-a029-b05c70d63f74.png)
+
+
 ## Register Page
 ![Screenshot_1](https://user-images.githubusercontent.com/79472177/192610259-52a1e515-ff4c-4149-8df6-027e66cbf1fc.png)
 
@@ -24,7 +30,6 @@
 ## Add Posts
 ![Screenshot_1](https://user-images.githubusercontent.com/79472177/192611044-8901f399-89d8-4a85-888c-2e11d885d1b2.png)
 
-## Home Page Section
-![Screenshot_8](https://user-images.githubusercontent.com/79472177/192611266-779fd334-244d-45b5-89dc-e8de4b64355e.png)
-![Screenshot_21](https://user-images.githubusercontent.com/79472177/192611786-be64772d-5a1c-47cd-b62e-1dd935da3275.png)
-![Screenshot_11](https://user-images.githubusercontent.com/79472177/192611826-22f17de8-7a44-401c-a029-b05c70d63f74.png)
+## Blog Page with Search Filter
+![Screenshot_10](https://user-images.githubusercontent.com/79472177/192611988-bc9268f1-c932-4ce3-8346-e6bee3f50b31.png)
+
