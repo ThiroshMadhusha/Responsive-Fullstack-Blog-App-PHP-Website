@@ -1,8 +1,8 @@
-# Responsive-Fullstack-Blog-App-PHP-Website
+# Responsive-Fullstack-Travel-Blog-App-PHP-Website
 
 ## Home Page Section
 ![Screenshot_8](https://user-images.githubusercontent.com/79472177/192611266-779fd334-244d-45b5-89dc-e8de4b64355e.png)
-![Screenshot_21](https://user-images.githubusercontent.com/79472177/192611786-be64772d-5a1c-47cd-b62e-1dd935da3275.png)
+![Screenshot_9](https://user-images.githubusercontent.com/79472177/192612707-d9bfc94c-6e89-43d7-b636-08cee1e61010.png)
 ![Screenshot_11](https://user-images.githubusercontent.com/79472177/192611826-22f17de8-7a44-401c-a029-b05c70d63f74.png)
 
 
