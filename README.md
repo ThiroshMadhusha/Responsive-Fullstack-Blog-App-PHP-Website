@@ -33,3 +33,12 @@
 ## Blog Page with Search Filter
 ![Screenshot_10](https://user-images.githubusercontent.com/79472177/192611988-bc9268f1-c932-4ce3-8346-e6bee3f50b31.png)
 
+## User Database
+![Screenshot_12](https://user-images.githubusercontent.com/79472177/192612199-d6362aba-9b00-4c32-8411-c121e2a669c3.png)
+
+## Posts Database
+![Screenshot_13](https://user-images.githubusercontent.com/79472177/192612264-b4982fe5-cdc2-4ffc-80c8-e4cf800064ca.png)
+
+## Categories Database
+![Screenshot_14](https://user-images.githubusercontent.com/79472177/192612317-8e83886b-91c0-4c15-bfb5-6781d423fa1e.png)
+
